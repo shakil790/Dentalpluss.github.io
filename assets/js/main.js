@@ -4,7 +4,7 @@ $(document).ready(function(){
 		container: '.header-slider-active',
 		items: 1,
 		slideBy: 'page',
-		autoplay: false,
+		autoplay: true,
 		nav: true,
 		navPosition: 'bottom',
 		mouseDrag: true,
@@ -21,7 +21,7 @@ $(document).ready(function(){
 		container: '.blog-slider-active',
 		items: 2,
 		slideBy: 'page',
-		autoplay: false,
+		autoplay: true,
 		nav: true,
 		mouseDrag: true,
 		controls: false,
@@ -31,7 +31,7 @@ $(document).ready(function(){
 		  0: {
 			gutter: 20,
 			items: 1
-		  },
+		  },	  
 		  700: {
 			items:1
 		  },
@@ -48,7 +48,7 @@ $(document).ready(function(){
 		container: '.client-slider-active',
 		items: 5,
 		slideBy: 'page',
-		autoplay: false,
+		autoplay: true,
 		nav: true,
 		navPosition: 'bottom',
 		mouseDrag: true,
@@ -58,6 +58,9 @@ $(document).ready(function(){
 		responsive: {
 		  0: {
 			gutter: 20,
+			items: 1
+		  },
+		  540: {
 			items: 2
 		  },
 		  768: {
@@ -76,7 +79,7 @@ $(document).ready(function(){
 		container: '.story-slider-active',
 		items: 2,
 		slideBy: 'page',
-		autoplay: false,
+		autoplay: true,
 		nav: true,
 		mouseDrag: true,
 		controls: false,
